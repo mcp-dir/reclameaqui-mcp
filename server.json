@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/reclameaqui-mcp",
+  "title": "Reclame Aqui",
+  "description": "Manage your company's complaints on Reclame Aqui through the Company Area account. You provide the c",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/reclameaqui-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_reclameaqui"
+    }
+  ]
+}
